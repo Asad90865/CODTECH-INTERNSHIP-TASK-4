@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color:red;
+        }
+        .container {
+            display: flex; 
+            justify-content: center; 
+            margin: 20px;
+        }
+        .image-container {
+            flex: 1; 
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            box-shadow: box-shadow rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .image-container img {
+        
+            height:auto;
+            margin-bottom: 10px; 
+            height:400px;
+            width:600px;
+            
+        }
+        .text-container {
+            flex: 1; 
+            padding-left: 20px;
+        }
+        .price {
+            color: green;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .offers {
+            margin-top: 10px;
+        }
+        .offer-item {
+            margin-bottom: 5px;
+        }
+        .delivery {
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        .highlight-item {
+            margin-bottom:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1><b><i>CRAFT'S WORLD STORE </i></b></h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://th.bing.com/th/id/OIP.kkQtneuLJnrcX6FmTOjIawHaJ4?rs=1&pid=ImgDetMain" alt="arts cart image ">
+            <br>
+            <img src="https://i.pinimg.com/originals/be/a9/c3/bea9c34b50de92baca625d0c4acef188.jpg" alt="arts cart image ">
+        </div>
+        <div class="text-container">
+            <h2>CRAFT WORLD DÉCOR Rotating home Storage cart |3-Tiered rack Shelves |Square Shaped Shelf, Organizers and Storage Cart for arts material (White)(Overall Length - 2 feet)</h2>
+            <div class="price">₹2,280 <span style="text-decoration: line-through; color: grey;">₹4,000</span> 45% off</div>
+            <div class="offers">
+                <div class="offers">
+                    <div class="offer-item">Bank Offer: Get 10% off up to ₹50 on first Flipkart UPI Transactions on order of ₹200 and above <br>Bank Offer: 5% Cashback on Flipkart Axis Bank Card <br>Bank Offer: 10% off up to ₹1250 on HDFC Bank Credit Card EMI Txns, Tenure: 6 months, Min Txn Value: ₹7500 <br>Partner Offer: Make a purchase and enjoy a surprise cashback/coupon that you can redeem later!</div>
+                    <a href="#">View more offers</a>
+            </div>
+            <div class="delivery">
+                <strong>Delivery</strong>
+                <p>Delivery by 10 Jun, Monday | Free shipping</p>
+            </div>
+            <div class="highlights">
+                <strong>Highlights</strong>
+                <div class="highlights">
+                    <strong>Highlights</strong>
+                    <div class="highlight-item"> 
+                        Product Dimensions:36.8D x 44.5W x 85.1H Centimeters <br>Shelf Type: Tiered Shelf <br>Material	Metal <br>Frame Material :Abs <br>Brand :Craft world <br> Colour :BLACK <br>Type: crafts <br> Length: 2 feet <br>Number of containers: 6 <br>Built-In Tuner: Yes
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
